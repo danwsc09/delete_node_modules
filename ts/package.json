@@ -8,6 +8,7 @@
     "typescript": "^4.7.2"
   },
   "scripts": {
-    "exec": "tsc script.ts && node script.js"
+    "exec": "tsc script.ts && node script.js",
+    "del-nm": "tsc delete-node-modules.ts && node delete-node-modules.js" 
   }
 }
