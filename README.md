@@ -2,8 +2,9 @@
 This is a simple script written in TypeScript to delete all the node_modules of a directory recursively.  
 
 # How to run
-First, clone this repo. Then, run the following commands.
+First, clone this repo. Make sure you have `yarn` installed. Then, run the following commands.
 ```bash
+$ cd ts
 $ yarn
 $ yarn run start
 ```
