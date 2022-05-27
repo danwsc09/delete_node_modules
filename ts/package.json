@@ -5,12 +5,12 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.35",
+    "prettier": "^2.6.2",
     "typescript": "^4.7.2"
   },
   "scripts": {
-    "start": "tsc index.ts && node index",
-    "exec": "tsc script.ts && node script",
     "del-nm": "tsc delete-node-modules.ts && node delete-node-modules",
-    "input": "tsc getInput.ts && node getInput"
+    "tree": "tsc tree.ts && node tree",
+    "fmt": "yarn prettier --write ."
   }
 }
